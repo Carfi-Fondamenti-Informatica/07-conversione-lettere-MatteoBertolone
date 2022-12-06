@@ -1,5 +1,13 @@
 #include <iostream>
+#include "lib.h"
+using namespace std;
 
-int main(){
-  return 0;
+int main() {
+    char c;
+    cin>>c;
+    if(caratteri(c))
+        cout<<c<<endl;
+    else
+        cout<<"errore"<<endl;
+    return 0;
 }
