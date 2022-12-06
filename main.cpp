@@ -3,10 +3,11 @@
 using namespace std;
 
 int main() {
-    char c;
+    char c=0;
     cin>>c;
-    if(caratteri(c)==true)
-        cout<<c<<endl;
-    else
-        cout<<"errore"<<endl;
+    if(caratteri(c)==1){
+        cout<<c<<endl;}
+    else{
+        cout<<"errore"<<endl;}
     return 0;
+}
