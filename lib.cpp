@@ -7,6 +7,6 @@ bool caratteri(char &x){
     }else if(x >= 97 && x <= 122){
         x -= 32;
         return true;
-    }
-    return false;
+    }else
+        return false;
 }
