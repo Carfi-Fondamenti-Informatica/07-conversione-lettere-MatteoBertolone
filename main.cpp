@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     char c;
     cin>>c;
-    if(caratteri(c))
+    if(caratteri(c)==true)
         cout<<c<<endl;
     else
         cout<<"errore"<<endl;
